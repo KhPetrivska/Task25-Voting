@@ -94,7 +94,7 @@ export default class Emojies extends React.Component {
         </div>
         </div>
         <div className='secondary-button-container'>
-    <button className='secondary button' onClick={this.clearResults}>Crear results</button>
+    <button className='secondary button' onClick={this.clearResults}>Clear results</button>
     </div>
       </>
     );

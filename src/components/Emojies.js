@@ -55,12 +55,12 @@ export default class Emojies extends React.Component {
       { name: "happy", src: happyEm },
       { name: "sherlock", src: sherlockEm },
     ];
-    this.state = {
-      count: smiles.reduce((prevCount, { name }) => {
-        prevCount[name] = 0;
-        return prevCount;
-      }, {}),
-    };
+    // this.state = {
+    //   count: smiles.reduce((prevCount, { name }) => {
+    //     prevCount[name] = 0;
+    //     return prevCount;
+    //   }, {}),
+    // };
 
     return (
       <>
